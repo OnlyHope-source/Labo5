@@ -1,0 +1,44 @@
+.puzzle{
+    display: grid;
+    max-width: 5%;
+    margin: 20px auto;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(4, 150px);
+    grid-template-areas: 
+    "d d k l"
+    "r u u l"
+    "o p q q"
+    "o b b s";
+    
+}
+
+#piece01{
+    grid-area: d;
+}
+#piece02{
+    grid-area: k;
+}
+#piece03{
+    grid-area: l;
+}
+#piece04{
+    grid-area: r;
+}
+#piece05{
+    grid-area: u;
+}
+#piece06{
+    grid-area: o;
+}
+#piece07{
+    grid-area: p;
+}
+#piece08{
+    grid-area: q;
+}
+#piece09{
+    grid-area: b;
+}
+#piece10{
+    grid-area: s;
+}

@@ -1,0 +1,40 @@
+.puzzle {
+    display: grid;
+    max-width: 450px;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: 
+    "a w d"
+    "d o z"
+    "j u i";
+}
+
+.piece1{
+    grid-area: d;
+}
+.piece2{
+    grid-area: j;
+}
+.piece3{
+    grid-area: o;
+
+}
+.piece4{
+    grid-area: u;
+}
+.piece5{
+    grid-area: d;
+}
+.piece6{
+    grid-area: a;
+}
+.piece7{
+    grid-area: i;
+}
+.piece8{
+    grid-area: w;
+}
+.piece9{
+    grid-area: d;
+}
